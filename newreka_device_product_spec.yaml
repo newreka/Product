@@ -1,0 +1,38 @@
+# Murano Product Spec File - Newreka Device
+# J. Hickey
+# Jan. 9, 2017
+# Version 1.0
+resources:
+-   alias: mains_power
+    format: integer
+    initial: 0
+-   alias: compressor_running
+    format: integer
+    initial: 0
+-   alias: conn_uptime
+    format: integer
+-   alias: signal_strength
+    format: integer
+-   alias: refrig_pressure
+    format: float
+-   alias: outside_temp
+    format: float
+-   alias: carrier
+    format: string
+-   alias: imei
+    format: string
+-   alias: registered
+    format: integer
+-   alias: compressor_powered
+    format: integer
+    initial: 0
+-   alias: tamper_2
+    format: integer
+    initial: 0
+-   alias: tamper_1
+    format: integer
+    initial: 0
+-   alias: location
+    format: string
+-   alias: battery_lvl
+    format: float
