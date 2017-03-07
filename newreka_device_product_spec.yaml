@@ -1,7 +1,7 @@
 # Murano Product Spec File - Newreka Device
 # J. Hickey
-# Jan. 9, 2017
-# Version 1.0
+# Mar. 1, 2017
+# Version 1.1
 resources:
 -   alias: mains_power
     format: integer
@@ -36,3 +36,9 @@ resources:
     format: string
 -   alias: battery_lvl
     format: float
+-   alias: lo_pres_warn
+    format: float
+    initial: 0
+-   alias: hi_pres_warn
+    format: float
+    initial: 0       
