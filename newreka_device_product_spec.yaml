@@ -41,4 +41,6 @@ resources:
     initial: 0
 -   alias: hi_pres_warn
     format: float
-    initial: 0       
+    initial: 0  
+-   alias: WorkAround
+    format: string         
