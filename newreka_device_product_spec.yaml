@@ -3,6 +3,16 @@
 # Mar. 1, 2017
 # Version 1.1
 resources:
+-   alias: location
+    format: string
+-   alias: battery_lvl
+    format: float
+-   alias: lo_pres_warn
+    format: float
+    initial: -1.0
+-   alias: hi_pres_warn
+    format: float
+    initial: -1.0  
 -   alias: mains_power
     format: integer
     initial: 0
@@ -26,21 +36,18 @@ resources:
 -   alias: compressor_powered
     format: integer
     initial: 0
--   alias: tamper_2
-    format: integer
-    initial: 0
 -   alias: tamper_1
     format: integer
     initial: 0
--   alias: location
-    format: string
--   alias: battery_lvl
-    format: float
--   alias: lo_pres_warn
-    format: float
+-   alias: tamper_2
+    format: integer
     initial: 0
--   alias: hi_pres_warn
-    format: float
-    initial: 0  
--   alias: WorkAround
-    format: string         
+-   alias: placeholder_1
+    format: integer
+    initial: 0
+-   alias: placeholder_2
+    format: integer
+    initial: 0
+-   alias: placeholder_3
+    format: integer
+    initial: 0
