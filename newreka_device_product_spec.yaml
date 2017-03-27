@@ -1,7 +1,7 @@
 # Murano Product Spec File - Newreka Device
 # J. Hickey
-# Mar. 1, 2017
-# Version 1.1
+# Mar. 27, 2017
+# Version 1.2
 resources:
 -   alias: location
     format: string
