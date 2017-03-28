@@ -42,5 +42,12 @@ resources:
 -   alias: tamper_2
     format: integer
     initial: 0
--   alias: name
-    format: string
+-   alias: placeholder_1
+    format: integer
+    initial: 0
+-   alias: placeholder_2
+    format: integer
+    initial: 0
+-   alias: placeholder_3
+    format: integer
+    initial: 0
