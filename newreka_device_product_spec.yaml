@@ -7,10 +7,10 @@ resources:
     format: string
 -   alias: battery_lvl
     format: float
--   alias: lo_pres_warn
+-   alias: underPressure
     format: float
     initial: -1.0
--   alias: hi_pres_warn
+-   alias: overPressure
     format: float
     initial: -1.0  
 -   alias: mains_power
